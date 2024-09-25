@@ -24,7 +24,7 @@ export default function RegisterPage() {
                 </div>
                 <button type='submit'>Register</button>
                 <div className='LogIn-link'>
-                    <p> Have Account ? <a href='#'>Login Now</a></p>
+                    <p> Have Account ? <a href='./Login'>Login Now</a></p>
                 </div>
             </form>
         </div>

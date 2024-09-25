@@ -18,3 +18,37 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+
+
+@media screen and (min-width : 0px) and (max-width: 768px) {
+
+    body {
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url('./assets/unsplash__nm_mZ4Cs2I.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 15px;
+    }
+}
+
+
+@media (min-width: 767px) and (max-width: 992px) {
+
+    body {
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url('./assets/unsplash__nm_mZ4Cs2I.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+}

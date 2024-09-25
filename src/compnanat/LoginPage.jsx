@@ -25,7 +25,7 @@ export default function LoginPage() {
                     <button type='submit'>Login</button>
                 </div>
                 <div className='register-link'>
-                    <span>Don't Have An Account? <a href="#" className='register'>Register</a></span>
+                    <span>Don't Have An Account? <a href="./Register" className='register'>Register</a></span>
                     
                 </div>
             </form>
